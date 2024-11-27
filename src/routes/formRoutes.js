@@ -33,7 +33,7 @@ router.post('/', async (req, res) => {
 });
 
 // Endpoint untuk mengambil semua data dari tabel brasiees
-router.get('/', async (_req, res) => {
+router.get('/', async (req, res) => {
     try {
         const data = await FormData.findAll();
         res.json({
