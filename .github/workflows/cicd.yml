@@ -78,6 +78,6 @@ jobs:
               --image=gcr.io/${{ secrets.PROJECT_ID }}/${{ secrets.IMAGE_NAME }}:${{ secrets.TAG_LATEST }} \
               --allow-unauthenticated \
               --port=${{ secrets.PORT }} \
-              --service-account=630947372650-compute@developer.gserviceaccount.com \
+              --service-account=609610394608-compute@developer.gserviceaccount.com \
               --region=${{ secrets.REGION }} \
               --project=${{ secrets.PROJECT_ID }}
